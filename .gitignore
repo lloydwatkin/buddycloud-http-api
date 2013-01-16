@@ -1,0 +1,5 @@
+.project
+.classpath
+.settings
+node_modules
+config.js
