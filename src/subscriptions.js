@@ -210,8 +210,8 @@ function changeNodeSubscriptions(req, res) {
     res.send(400);
   }
 
-  api.sendQuery(req, res, 
-    pubsub.changeNodeAffiliationsIq(nodeId, newAffiliations), 
+  api.sendQuery(req, res,
+    pubsub.changeNodeAffiliationsIq(nodeId, newAffiliations),
     function() {
       res.send(200);
     });
